@@ -1,0 +1,71 @@
+*{
+    background-color: rgb(247, 237, 225);
+}
+
+
+ /* < one way > */
+/* .card div { 
+    float:left;
+    clear:none;
+    background-color: white; 
+
+ } */
+
+
+/* < 2nd  way > */
+
+.card{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+}
+
+
+
+img{
+    width:350px;
+    height:470px;
+}
+h3,h1,.contains,p,.orginal_price,del{
+    background-color: white;
+
+}
+.contains{
+   padding:0 30px;
+}
+h1{
+    width:300px;
+    font-size: 2.4rem;
+    margin-top: 0px;
+}
+h3{
+    margin-top: 20px;
+    color:#8e8e8e;
+}
+p{
+    width:300px;
+    /* font-size: 2.5rem; */
+    margin-bottom:10px;
+
+}
+.price_tag{
+    margin-top:0px;
+    font-size: 2.4rem;
+}
+
+button{
+    color:white;
+    font-size:20px;
+    font-weight:900;
+    width:250px;
+    height:50px;
+    background-color:chocolate;
+    border:none;
+    border-radius:10px;
+}
+.orginal_price{
+    font-size:30px;
+    margin-left:20px;
+    color:#8e8e8e;
+
+}
